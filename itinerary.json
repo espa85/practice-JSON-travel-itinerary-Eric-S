@@ -1,0 +1,57 @@
+{
+  "tripName": "Coast-to-Coast Adventure 2025",
+  "traveler": {
+    "name": "John Doe",
+    "contact": {
+      "email": "john.doe@example.com",
+      "phone": "+1-555-314-1234"
+    }
+  },
+  "destinations": [
+    {
+      "location": "Chicago, IL",
+      "arrivalDate": "2025-06-05",
+      "departureDate": "2025-06-09",
+      "activities": [
+        {
+          "title": "Field Museum Tour",
+          "time": "9:00 AM"
+        },
+        {
+          "title": "Mideval Times Show",
+          "time": "7:30 PM"
+        }
+      ]
+    },
+    {
+      "location": "Chicago, IL",
+      "arrivalDate": "2025-06-10",
+      "departureDate": "2025-06-13",
+      "activities": [
+        {
+          "title": "Architectural River Cruise",
+          "time": "11:00 AM"
+        },
+        {
+          "title": "Deep Dish Pizza Tasting",
+          "time": "6:00 PM"
+        }
+      ]
+    },
+    {
+      "location": "San Francisco, CA",
+      "arrivalDate": "2025-06-14",
+      "departureDate": "2025-06-18",
+      "activities": [
+        {
+          "title": "Golden Gate Bridge Bike Ride",
+          "time": "10:30 AM"
+        },
+        {
+          "title": "Alcatraz Island Tour",
+          "time": "1:00 PM"
+        }
+      ]
+    }
+  ]
+}
