@@ -12,6 +12,26 @@
       "location": "Chicago, IL",
       "arrivalDate": "2025-06-05",
       "departureDate": "2025-06-09",
+      "transportation": [
+        {
+          "type": "arrival",
+          "mode": "car",
+          "from": "St. Charles, MO",
+          "to": "Chicago, IL",
+          "departureTime": "2025-06-05T10:00:00",
+          "arrivalTime": "2025-06-05T17:10:00",
+          "cost": 45.00
+        },
+        {
+          "type": "departure",
+          "mode": "car",
+          "from": "Chicago, IL",
+          "to": "St. Charles, MO",
+          "departureTime": "2025-06-09T08:00:00",
+          "arrivalTime": "2025-06-09T13:55:00",
+          "cost": 45.00
+        }
+      ],
       "activities": [
         {
           "title": "Field Museum Tour",
@@ -24,32 +44,72 @@
       ]
     },
     {
-      "location": "Chicago, IL",
-      "arrivalDate": "2025-06-10",
-      "departureDate": "2025-06-13",
-      "activities": [
+      "location": "Kansas City, MO",
+      "arrivalDate": "2025-10-03",
+      "departureDate": "2025-10-05",
+      "transportation": [
         {
-          "title": "Architectural River Cruise",
-          "time": "11:00 AM"
+          "type": "arrival",
+          "mode": "car",
+          "from": "St. Charles, MO",
+          "to": "Kansas City, MO",
+          "departureTime": "2025-10-03T10:00:00",
+          "arrivalTime": "2025-10-03T14:10:00",
+          "cost": 25.00
         },
         {
-          "title": "Deep Dish Pizza Tasting",
+          "type": "departure",
+          "mode": "car",
+          "from": "Kansas City, MO",
+          "to": "St. Charles, MO",
+          "departureTime": "2025-10-05T08:00:00",
+          "arrivalTime": "2025-10-05T13:55:00",
+          "cost": 25.00
+        }
+      ],
+      "activities": [
+        {
+          "title": "Jazz Museum Visit",
+          "time": "10:00 AM"
+        },
+        {
+          "title": "Kansas City BBQ Tour",
           "time": "6:00 PM"
         }
       ]
     },
     {
-      "location": "San Francisco, CA",
-      "arrivalDate": "2025-06-14",
-      "departureDate": "2025-06-18",
-      "activities": [
+      "location": "Orlando, FL",
+      "arrivalDate": "2025-10-31",
+      "departureDate": "2025-11-05",
+      "transportation": [
         {
-          "title": "Golden Gate Bridge Bike Ride",
-          "time": "10:30 AM"
+          "type": "arrival",
+          "mode": "flight",
+          "from": "St. Louis, MO",
+          "to": "Orlando, FL",
+          "departureTime": "2025-10-31T06:00:00",
+          "arrivalTime": "2025-10-31T09:10:00",
+          "cost": 45.00
         },
         {
-          "title": "Alcatraz Island Tour",
-          "time": "1:00 PM"
+          "type": "departure",
+          "mode": "car",
+          "from": "Orlando, FL",
+          "to": "St. Charles, MO",
+          "departureTime": "2025-11-05T08:00:00",
+          "arrivalTime": "2025-11-05T13:55:00",
+          "cost": 45.00
+        }
+      ],
+      "activities": [
+        {
+          "title": "Universal Studios Theme Park",
+          "time": "All Day"
+        },
+        {
+          "title": "Magic Kingdom Fireworks",
+          "time": "9:00 PM"
         }
       ]
     }
